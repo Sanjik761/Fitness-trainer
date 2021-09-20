@@ -30,3 +30,14 @@ header {
   height: 450px;
   box-sizing: border-box;
 }
+
+header::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
