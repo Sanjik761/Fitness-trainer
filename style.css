@@ -198,3 +198,22 @@ h4 {
   color: #b59f5b;
   padding-right: 20px;
 }
+
+aside {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 270px;
+}
+
+.new-posts {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-posts > h4 {
+  margin-bottom: 40px;
+  position: relative;
+}
