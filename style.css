@@ -379,3 +379,69 @@ input {
   text-transform: uppercase;
   color: #fff;
 }
+
+.tags {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.tags > h4 {
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
+  position: relative;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.tags > h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  width: 65px;
+  height: 3px;
+  background-color: #e1d9bd;
+  right: 0;
+  display: block;
+  margin: -15px auto;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.tag-container li {
+  height: 30px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 6px 0 0 5px;
+}
+
+.tag-container a {
+  text-decoration: none;
+  color: #000;
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 3px solid #eee;
+  padding: 5px 10px;
+}
+
+.tag-container a:hover {
+  border: 3px solid #b59f5b;
+}
+
+.tag-container > a {
+  text-decoration: none;
+  margin: auto;
+}
+
+.tag-container > a:visited,
+.tag-container > a:active {
+  color: #000;
+}
