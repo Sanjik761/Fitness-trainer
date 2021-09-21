@@ -111,3 +111,12 @@ li a,
 li a {
   color: #fff;
 }
+
+main {
+  margin-top: 60px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
