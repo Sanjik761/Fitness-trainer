@@ -342,3 +342,40 @@ input {
   display: block;
   margin: -15px auto;
 }
+
+
+.subscribe-field {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #f4f7f6;
+  border-radius: 0;
+  border: 0;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  padding: 10px 25px 10px 15px;
+}
+
+.subscribe-field:focus {
+  outline: none;
+  border-color: #b59f5b;
+}
+
+.subscribe {
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.button-sub {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #dadada;
+  display: inline-block;
+  font-size: 14px;
+  height: 47px;
+  border-radius: 0;
+  background-color: #b59f5b;
+  margin-top: 20px;
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
+  color: #fff;
+}
