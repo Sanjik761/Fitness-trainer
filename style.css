@@ -160,3 +160,19 @@ main {
   font-size: 20px;
   font-family: OpenSans-Bold;
 }
+
+.date-author {
+  display: flex;
+  padding-bottom: 55px;
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+}
+
+time {
+  padding-right: 15px;
+  color: grey;
+}
+
+.author {
+  font-weight: 700;
+}
