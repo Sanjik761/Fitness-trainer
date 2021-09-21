@@ -128,3 +128,19 @@ main {
   font-family: OpenSans-Bold;
   color: #b59f5b;
 }
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+}
+
+.post {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.post:nth-child(n + 2) {
+  margin-top: 60px;
+}
