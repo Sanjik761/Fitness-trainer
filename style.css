@@ -265,3 +265,54 @@ aside {
   line-height: 18px;
   width: 190px;
 }
+
+.search {
+  display: flex;
+  margin: 60px 0;
+}
+
+.field {
+  box-sizing: border-box;
+  width: 223px;
+  border: 2px solid #dadada;
+  padding-right: 25px;
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  height: 47px;
+  border-radius: 0;
+  background-color: #fff;
+  font-family: OpenSans-Regular;
+  margin: 0;
+}
+
+.search button {
+  width: 47px;
+  height: 47px;
+  background-color: #b59f5b;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+  border-width: 0;
+  padding: 0;
+}
+
+.field:focus {
+  outline: none;
+  border-color: #b59f5b;
+}
+
+.new-post-img {
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+input {
+  height: 47px;
+  width: 47px;
+  background: #b59f5b;
+  color: #000;
+}
