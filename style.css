@@ -144,3 +144,12 @@ main {
 .post:nth-child(n + 2) {
   margin-top: 60px;
 }
+
+.post-photo {
+  margin-right: 30px;
+}
+
+.post-img {
+  width: 381px;
+  height: 294px;
+}
