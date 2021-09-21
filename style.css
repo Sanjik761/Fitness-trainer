@@ -176,3 +176,25 @@ time {
 .author {
   font-weight: 700;
 }
+
+.post-description {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+}
+
+.post-title > a,
+.post-title > a:active,
+.post-title h4 > a {
+  text-decoration: none;
+  color: #000;
+}
+
+h4 {
+  margin: 0;
+}
+
+.keywords > a {
+  text-decoration: none;
+  color: #b59f5b;
+  padding-right: 20px;
+}
