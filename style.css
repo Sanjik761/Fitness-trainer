@@ -316,3 +316,29 @@ input {
   background: #b59f5b;
   color: #000;
 }
+
+.mailing {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mailing > h4 {
+  position: relative;
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
+}
+
+.mailing > h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 65px;
+  height: 3px;
+  background-color: #e1d9bd;
+  right: 0;
+  display: block;
+  margin: -15px auto;
+}
