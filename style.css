@@ -217,3 +217,51 @@ aside {
   margin-bottom: 40px;
   position: relative;
 }
+
+.new-posts > h4,
+.new-post-title {
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
+}
+
+.new-posts > h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 65px;
+  height: 3px;
+  background-color: #e1d9bd;
+  right: 0;
+  margin: -15px auto;
+}
+
+.new-post {
+  display: flex;
+  box-sizing: border-box;
+  margin-right: auto;
+}
+
+.new-post:nth-child(n + 2) {
+  margin-bottom: 20px;
+}
+
+.new-post:last-child {
+  margin-bottom: 60px;
+}
+
+.new-post-photo {
+  margin-right: 20px;
+  width: 70px;
+}
+
+.new-post-title {
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 18px;
+  width: 190px;
+}
