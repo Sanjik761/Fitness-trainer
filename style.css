@@ -514,3 +514,111 @@ input {
 .themes-container > a:active {
   color: #000;
 }
+
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 83px;
+  background-color: #f4f7f6;
+  margin: 65px auto 75px;
+}
+
+.social-network {
+  display: flex;
+  width: 230px;
+  box-sizing: border-box;
+  background-size: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  color: grey;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: OpenSans-Regular;
+}
+
+.social-network > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+.copyright > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.social-network li {
+  width: 25px;
+  height: 25px;
+}
+
+.twitter,
+.pinterest,
+.facebook,
+.instagramm,
+.tumblr {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.twitter {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+}
+
+.pinterest {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+}
+
+.facebook {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+}
+
+.instagramm {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+}
+
+.tumblr {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+}
+
+#twi,
+#pin,
+#face,
+#insta,
+#tumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+}
+
+.social-network > a:visited,
+.social-network > a:active,
+.copyright > a:visited,
+.copyright > a:active {
+  color: grey;
+}
