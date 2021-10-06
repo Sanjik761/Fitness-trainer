@@ -629,18 +629,18 @@ li {
   color: #1DA1F2;
 }
 
-#pin {
-
+.fa-pinterest-p:hover {
+  color: #E60023;
 }
 
-#face {
-
+.fa-facebook-f:hover {
+  color: #3b5998;
 }
 
-#insta {
-
+.fa-instagram:hover {
+  color: #3f729b;
 }
 
-#tumb {
-
+.fa-tumblr:hover {
+  color: #36465D;
 }
