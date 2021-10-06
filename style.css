@@ -604,16 +604,16 @@ li {
 }
 
 .fa-twitter,
-#twi,
-#pin,
-#face,
-#insta,
-#tumb {
+.fa-pinterest-p,
+.fa-facebook-f,
+.fa-instagram,
+.fa-tumblr {
+  font-size: 25px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   background-color: transparent;
   color: #000;
 }
@@ -626,7 +626,6 @@ li {
 }
 
 .fa-twitter:hover {
-  /* background-color: #1DA1F2; */
   color: #1DA1F2;
 }
 
