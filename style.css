@@ -582,27 +582,6 @@ li {
   background-size: contain;
 }
 
-.twitter {
-  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg); */
-
-}
-
-.pinterest {
-  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg); */
-}
-
-.facebook {
-  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg); */
-}
-
-.instagramm {
-  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg); */
-}
-
-.tumblr {
-  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg); */
-}
-
 .fa-twitter,
 .fa-pinterest-p,
 .fa-facebook-f,
@@ -638,7 +617,7 @@ li {
 }
 
 .fa-instagram:hover {
-  color: #3f729b;
+  color: #f09433;
 }
 
 .fa-tumblr:hover {
