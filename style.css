@@ -583,25 +583,27 @@ li {
 }
 
 .twitter {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg); */
+
 }
 
 .pinterest {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg); */
 }
 
 .facebook {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg); */
 }
 
 .instagramm {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg); */
 }
 
 .tumblr {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+  /* background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg); */
 }
 
+.fa-twitter,
 #twi,
 #pin,
 #face,
@@ -613,6 +615,7 @@ li {
   width: 25px;
   height: 25px;
   background-color: transparent;
+  color: #000;
 }
 
 .social-network > a:visited,
@@ -620,4 +623,25 @@ li {
 .copyright > a:visited,
 .copyright > a:active {
   color: grey;
+}
+
+.fa-twitter:hover {
+  /* background-color: #1DA1F2; */
+  color: #1DA1F2;
+}
+
+#pin {
+
+}
+
+#face {
+
+}
+
+#insta {
+
+}
+
+#tumb {
+
 }
