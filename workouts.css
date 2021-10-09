@@ -20,7 +20,7 @@ body {
 
 header {
   background-color: #000;
-  background-image: url(https://www.calculators.org/graphics/healthy-body-comparison.jpg);
+  background-image: url(https://www.alcoholrehabguide.org/app/uploads/2019/07/Alcohol-and-Fitness.jpeg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,6 +105,19 @@ li a {
   margin: 65px auto 0;
 }
 
+.sec-work-gif-flex {
+  display: flex;
+}
+
+.sec-work-gif {
+  margin: 30px 90px;
+  width: 280px;
+}
+
+.sec-work-gif img {
+  width: 280px;
+  height: 300px;
+}
 
 .footer {
   display: flex;
