@@ -154,7 +154,6 @@ li a {
 .section2,
 .art-sec2-left-row {
   display: flex;
-  /* justify-content: space-around; */
 }
 
 .art-sec2-left {
@@ -207,13 +206,6 @@ li a {
   font-size: 21px;
   border-bottom: 1px solid grey;
 }
-
-
-
-
-
-
-
 
 .footer {
   display: flex;
