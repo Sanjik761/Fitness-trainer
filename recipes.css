@@ -114,3 +114,14 @@ li a {
   background-color: #f4f7f6;
   margin: 65px auto 75px;
 }
+
+.social-network {
+  display: flex;
+  width: 230px;
+  box-sizing: border-box;
+  background-size: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
