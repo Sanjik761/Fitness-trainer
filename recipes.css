@@ -125,3 +125,11 @@ li a {
   justify-content: space-between;
   align-items: center;
 }
+
+.copyright {
+  display: flex;
+  color: grey;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: OpenSans-Regular;
+}
