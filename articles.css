@@ -20,14 +20,14 @@ body {
 
 header {
   background-color: #000;
-  background-image: url(https://charlotteaxios-charlotteagenda.netdna-ssl.com/wp-content/uploads/2015/03/image1-3.jpg);
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* margin-bottom: 63px; */
+  margin-bottom: 63px;
   padding-top: 26px;
-  height: 655px;
+  height: 450px;
   box-sizing: border-box;
 }
 
@@ -35,7 +35,7 @@ header::after {
   content: "";
   background-color: #000;
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.6;
   top: 0;
   left: 0;
   right: 0;
@@ -103,19 +103,15 @@ li a {
   text-align: center;
   width: 730px;
   margin: 65px auto 0;
-  text-shadow: 2px 2px 4px rgb(248, 248, 248);
 }
 
-
 .footer {
-  position: relative;
-  z-index: 2;
   display: flex;
   box-sizing: border-box;
   width: 1200px;
-  height: 70px;
-  background-color: rgb(224, 224, 224);
-  margin: 155px auto 20px;
+  height: 83px;
+  background-color: #f4f7f6;
+  margin: 65px auto 75px;
 }
 
 .social-network {
@@ -131,7 +127,7 @@ li a {
 
 .copyright {
   display: flex;
-  color: white;
+  color: grey;
   text-align: center;
   margin-bottom: 40px;
   font-family: OpenSans-Regular;
@@ -139,13 +135,13 @@ li a {
 
 .social-network > a {
   text-decoration: none;
-  color: white;
+  color: grey;
   margin: auto;
 }
 
 .copyright > a {
   text-decoration: none;
-  color: white;
+  color: grey;
   margin: auto;
 }
 
