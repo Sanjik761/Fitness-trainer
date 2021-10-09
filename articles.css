@@ -105,11 +105,15 @@ li a {
   margin: 65px auto 0;
 }
 
-.line {
-  width: 1200px;
+.line,
+.line2 {
   height: 4px;
   background-color: #b59f5b;
   border: none;
+}
+
+.line {
+  width: 1200px;
 }
 
 .art-sec-div-item {
@@ -147,9 +151,49 @@ li a {
   margin: 5px 0;
 }
 
+.section2,
+.art-sec2-left {
+  display: flex;
+  /* justify-content: space-around; */
+}
 
+.art-sec2-left {
 
+  margin: 30px 90px;
+  /* width: 1800px; */
+}
 
+.art-sec2-item {
+  width: 220px;
+}
+
+.art-sec2-img {
+  width: 220px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.img-figc2 {
+  font-family: "OpenSans-Regular";
+  margin: auto;
+}
+
+.img-figc2 h4 {
+  font-family: "OpenSans-Bold";
+  margin: 2px 0;
+  color: #b59f5b;
+  font-size: 14px;
+}
+
+.img-figc2 h3 {
+  font-family: "OpenSans-Bold";
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.img-figc2 p {
+  font-size: 12px;
+}
 
 
 
