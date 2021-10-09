@@ -41,3 +41,9 @@ header::after {
   right: 0;
   bottom: 0;
 }
+
+.header-container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
