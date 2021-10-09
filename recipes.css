@@ -17,3 +17,17 @@ body {
   font-style: normal;
   font-weight: normal;
 }
+
+header {
+  background-color: #000;
+  background-image: url(https://www.alcoholrehabguide.org/app/uploads/2019/07/Alcohol-and-Fitness.jpeg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 63px;
+  padding-top: 26px;
+  height: 450px;
+  box-sizing: border-box;
+}
+
