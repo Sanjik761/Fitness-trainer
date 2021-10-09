@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+header {
+  background-color: #000;
+  background-image: url(https://charlotteaxios-charlotteagenda.netdna-ssl.com/wp-content/uploads/2015/03/image1-3.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* margin-bottom: 63px; */
+  padding-top: 26px;
+  height: 655px;
+  box-sizing: border-box;
+}
+
+header::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header-container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first-line {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 4;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.first-line > a,
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu {
+  justify-content: space-between;
+  width: 550px;
+}
+
+.menu-list {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  width: auto;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: OpenSans-Regular;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.menu-list > li {
+  width: auto;
+  height: auto;
+}
+
+.header-logo {
+  position: relative;
+  z-index: 2;
+  height: 40px;
+}
+
+.container-welcome {
+  position: relative;
+  z-index: 2;
+  font-family: OpenSans-Bold;
+  font-size: 45px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  width: 730px;
+  margin: 65px auto 0;
+}
+
+
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 70px;
+  background-color: rgb(252, 251, 250);
+  margin: 155px auto 20px;
+}
+
+.social-network {
+  display: flex;
+  width: 230px;
+  box-sizing: border-box;
+  background-size: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  color: grey;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: OpenSans-Regular;
+}
+
+.social-network > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+.copyright > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.social-network li {
+  width: 25px;
+  height: 25px;
+}
+
+.twitter,
+.pinterest,
+.facebook,
+.instagramm,
+.tumblr {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fa-twitter,
+.fa-pinterest-p,
+.fa-facebook-f,
+.fa-instagram,
+.fa-tumblr {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  color: #000;
+}
+
+.social-network > a:visited,
+.social-network > a:active,
+.copyright > a:visited,
+.copyright > a:active {
+  color: grey;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-pinterest-p:hover {
+  color: #E60023;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #f09433;
+}
+
+.fa-tumblr:hover {
+  color: #36465D;
+}
