@@ -198,3 +198,22 @@ li {
   color: grey;
 }
 
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-pinterest-p:hover {
+  color: #E60023;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #f09433;
+}
+
+.fa-tumblr:hover {
+  color: #36465D;
+}
