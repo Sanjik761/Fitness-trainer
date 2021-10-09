@@ -133,3 +133,32 @@ li a {
   margin-bottom: 40px;
   font-family: OpenSans-Regular;
 }
+
+
+.social-network > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+.copyright > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.social-network li {
+  width: 25px;
+  height: 25px;
+}
