@@ -161,3 +161,57 @@ li {
   width: 25px;
   height: 25px;
 }
+
+.twitter,
+.pinterest,
+.facebook,
+.instagramm,
+.tumblr {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fa-twitter,
+.fa-pinterest-p,
+.fa-facebook-f,
+.fa-instagram,
+.fa-tumblr {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  color: #000;
+}
+
+.social-network > a:visited,
+.social-network > a:active,
+.copyright > a:visited,
+.copyright > a:active {
+  color: grey;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-pinterest-p:hover {
+  color: #E60023;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #f09433;
+}
+
+.fa-tumblr:hover {
+  color: #36465D;
+}
