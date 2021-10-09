@@ -20,7 +20,7 @@ body {
 
 header {
   background-color: #000;
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+  background-image: url(https://www.calculators.org/graphics/healthy-body-comparison.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,6 +104,61 @@ li a {
   width: 730px;
   margin: 65px auto 0;
 }
+
+.line {
+  width: 1200px;
+  height: 4px;
+  background-color: #b59f5b;
+  border: none;
+}
+
+.art-sec-div-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.art-sec {
+  margin: 30px 90px;
+}
+
+.art-sec-item {
+  width: 300px;
+}
+
+.art-sec-img {
+  width: 300px;
+  height: 220px;
+  border-radius: 15px;
+}
+
+.img-figc {
+  font-family: "OpenSans-Regular";
+  margin: auto;
+}
+
+.img-figc h4 {
+  font-family: "OpenSans-Bold";
+  margin: 2px 0;
+  color: #b59f5b;
+}
+
+.img-figc h3 {
+  font-family: "OpenSans-Bold";
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   display: flex;
