@@ -106,6 +106,12 @@ li a {
   margin: 65px auto 0;
 }
 
+
+
+
+
+
+
 .footer {
   display: flex;
   box-sizing: border-box;
@@ -133,7 +139,6 @@ li a {
   margin-bottom: 40px;
   font-family: OpenSans-Regular;
 }
-
 
 .social-network > a {
   text-decoration: none;
