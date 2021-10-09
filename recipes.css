@@ -105,3 +105,12 @@ li a {
   width: 730px;
   margin: 65px auto 0;
 }
+
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 83px;
+  background-color: #f4f7f6;
+  margin: 65px auto 75px;
+}
