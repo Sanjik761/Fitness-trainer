@@ -91,3 +91,16 @@ li a {
   z-index: 2;
   height: 40px;
 }
+
+.container-welcome {
+  position: relative;
+  z-index: 2;
+  font-family: OpenSans-Bold;
+  font-size: 45px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  width: 730px;
+  margin: 65px auto 0;
+}
