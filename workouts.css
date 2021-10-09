@@ -81,3 +81,13 @@ li a {
   padding-left: 0;
 }
 
+.menu-list > li {
+  width: auto;
+  height: auto;
+}
+
+.header-logo {
+  position: relative;
+  z-index: 2;
+  height: 40px;
+}
