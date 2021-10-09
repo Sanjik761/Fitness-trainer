@@ -81,3 +81,8 @@ li a {
   justify-content: space-between;
   padding-left: 0;
 }
+
+.menu-list > li {
+  width: auto;
+  height: auto;
+}
