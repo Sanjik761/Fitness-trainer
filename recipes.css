@@ -106,12 +106,6 @@ li a {
   margin: 65px auto 0;
 }
 
-
-
-
-
-
-
 .footer {
   display: flex;
   box-sizing: border-box;
@@ -167,7 +161,6 @@ li {
   width: 25px;
   height: 25px;
 }
-
 
 .twitter,
 .pinterest,
