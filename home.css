@@ -27,7 +27,7 @@ header {
   position: relative;
   /* margin-bottom: 63px; */
   padding-top: 26px;
-  height: 655px;
+  height: 721px;
   box-sizing: border-box;
 }
 
@@ -106,16 +106,15 @@ li a {
   text-shadow: 2px 2px 4px rgb(248, 248, 248);
 }
 
-
 .footer {
   position: relative;
   z-index: 2;
   display: flex;
   box-sizing: border-box;
   width: 1200px;
-  height: 70px;
+  height: 60px;
   background-color: rgb(224, 224, 224);
-  margin: 155px auto 20px;
+  margin: 230px auto 20px;
 }
 
 .social-network {
