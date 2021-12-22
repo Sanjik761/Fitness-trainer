@@ -1,0 +1,13 @@
+.sec-work-gif-flex {
+    display: flex;
+  }
+  
+  .sec-work-gif {
+    margin: 30px 90px;
+    width: 280px;
+  }
+  
+  .sec-work-gif img {
+    width: 280px;
+    height: 300px;
+  }
