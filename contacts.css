@@ -17,4 +17,77 @@ body {
   font-style: normal;
   font-weight: normal;
 }
-  
+
+header {
+  background-color: #000;
+  background-image: url(https://i2.wp.com/joelbooks.com/wp-content/uploads/2019/11/100-Bodybuilding-Recipes-web.jpg?fit=1000%2C667&ssl=1);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 63px;
+  padding-top: 26px;
+  height: 450px;
+  box-sizing: border-box;
+}
+
+header::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header-container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first-line {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 4;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.first-line > a,
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu {
+  justify-content: space-between;
+  width: 550px;
+}
+
+.menu-list {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  width: auto;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: OpenSans-Regular;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.menu-list > li {
+  width: auto;
+  height: auto;
+}
+
+.header-logo {
+  position: relative;
+  z-index: 2;
+  height: 40px;
+}
