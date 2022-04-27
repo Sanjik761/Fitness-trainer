@@ -91,3 +91,117 @@ li a {
   z-index: 2;
   height: 40px;
 }
+
+
+
+
+
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 83px;
+  background-color: #f4f7f6;
+  margin: 65px auto 75px;
+}
+
+.social-network {
+  display: flex;
+  width: 230px;
+  box-sizing: border-box;
+  background-size: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  color: grey;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: OpenSans-Regular;
+}
+
+.social-network > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+.copyright > a {
+  text-decoration: none;
+  color: grey;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.social-network li {
+  width: 25px;
+  height: 25px;
+}
+
+.twitter,
+.pinterest,
+.facebook,
+.instagramm,
+.tumblr {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fa-twitter,
+.fa-pinterest-p,
+.fa-facebook-f,
+.fa-instagram,
+.fa-tumblr {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  color: #000;
+}
+
+.social-network > a:visited,
+.social-network > a:active,
+.copyright > a:visited,
+.copyright > a:active {
+  color: grey;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-pinterest-p:hover {
+  color: #E60023;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #f09433;
+}
+
+.fa-tumblr:hover {
+  color: #36465D;
+}
