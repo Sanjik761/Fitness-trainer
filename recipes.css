@@ -4,16 +4,14 @@ body {
 
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff")
-    format("truetype");
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff")
-    format("truetype");
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -58,7 +56,7 @@ header::after {
   align-items: center;
 }
 
-.first-line > a,
+.first-line>a,
 li a {
   text-decoration: none;
   color: #fff;
@@ -81,7 +79,7 @@ li a {
   padding-left: 0;
 }
 
-.menu-list > li {
+.menu-list>li {
   width: auto;
   height: auto;
 }
@@ -133,13 +131,13 @@ li a {
   font-family: OpenSans-Regular;
 }
 
-.social-network > a {
+.social-network>a {
   text-decoration: none;
   color: grey;
   margin: auto;
 }
 
-.copyright > a {
+.copyright>a {
   text-decoration: none;
   color: grey;
   margin: auto;
@@ -188,10 +186,10 @@ li {
   color: #000;
 }
 
-.social-network > a:visited,
-.social-network > a:active,
-.copyright > a:visited,
-.copyright > a:active {
+.social-network>a:visited,
+.social-network>a:active,
+.copyright>a:visited,
+.copyright>a:active {
   color: grey;
 }
 
